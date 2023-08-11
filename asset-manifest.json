@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ETHGlobal_Clone/static/css/main.c1f5b03d.css",
+    "main.js": "/ETHGlobal_Clone/static/js/main.fc40926a.js",
+    "static/js/787.68625174.chunk.js": "/ETHGlobal_Clone/static/js/787.68625174.chunk.js",
+    "index.html": "/ETHGlobal_Clone/index.html",
+    "main.c1f5b03d.css.map": "/ETHGlobal_Clone/static/css/main.c1f5b03d.css.map",
+    "main.fc40926a.js.map": "/ETHGlobal_Clone/static/js/main.fc40926a.js.map",
+    "787.68625174.chunk.js.map": "/ETHGlobal_Clone/static/js/787.68625174.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1f5b03d.css",
+    "static/js/main.fc40926a.js"
+  ]
+}
