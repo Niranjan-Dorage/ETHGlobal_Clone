@@ -1,0 +1,436 @@
+body {
+  height: 3200px;
+  user-select: none;
+  font-family: 'REM', sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.rhombus {
+  border: 1px solid black;
+  position: relative;
+  z-index: 10;
+  margin-left: 350px;
+  width: 1220px;
+  height: 130px;
+  transform: skewX(-60deg);
+  background-color: rgb(255, 220, 184);
+}
+
+.cardplatform {
+  margin-top: -40px;
+  overflow-x: hidden;
+
+}
+
+.impactcards {
+  display: flex;
+  flex-flow: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+:hover.impactcard {
+  scale: 1.1;
+}
+
+.impactcardimg {
+  margin-top: 20px;
+  width: 100px;
+}
+
+.impactcardtext {
+  font-size: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.impactcard {
+  transition: 0.14s ease-in-out;
+
+  width: 30vw;
+  margin-left: 28px;
+  margin-top: 20px;
+  border-radius: 12px;
+  background-color: rgba(218, 218, 218, 0.656);
+  height: 250px;
+}
+
+.impactcardsmalltext {
+  color: rgb(48, 48, 48);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.cards {
+  position: relative;
+  z-index: 100;
+  padding-left: 450px;
+  padding-right: 450px;
+  display: flex;
+  overflow-x: scroll;
+  flex-grow: 0;
+}
+
+.card {
+  margin-left: 23px;
+  flex-grow: 0;
+  flex-direction: column;
+  border: 2px solid black;
+  height: 260px;
+  min-width: 380px;
+  transition: 0.2s ease-in-out;
+
+  border-radius: 10px;
+}
+
+:hover.card {
+  background-color: rgb(233, 161, 255);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+.hackrow {
+  justify-content: space-between;
+  margin-top: 40px;
+  display: flex;
+}
+
+.learnmore {
+  border-top: 2px solid black;
+  height: 56px;
+  margin-top: 20px;
+  border-bottom-left-radius: 10px;
+  border-end-end-radius: 10px;
+  background-color: rgb(255, 220, 184);
+}
+
+.learnmoretext {
+  margin-top: 17px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.daterow {
+  padding: 4px;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 20px;
+  text-align: center;
+  width: 180px;
+  border: 2px solid black;
+
+  font-size: 12px;
+}
+
+.superhack {
+  font-size: 22px;
+  margin-left: 30px;
+}
+
+.photo {
+  border: 2px solid black;
+  margin-right: 30px;
+  margin-top: -15px;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 1000px;
+  background-color: rgb(255, 0, 0);
+}
+
+.virtual {
+  font-size: 12PX;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 1px solid black;
+  border-radius: 30px;
+  text-align: center;
+  width: 70px;
+  padding: 5px;
+  background-color: rgb(209, 255, 227);
+}
+
+#blackrhombus {
+  margin-left: 350px;
+  width: 1220px;
+  position: relative;
+  top: -110px;
+
+  height: 130px;
+  transform: skewX(-60deg);
+  background-color: rgb(255, 220, 184);
+  background-color: rgb(0, 0, 0);
+}
+
+.logo {
+  display: flex;
+}
+
+:hover.li {
+  color: rgb(84, 82, 82);
+}
+
+.li {
+  transition: 0.2s ease-in-out;
+}
+
+.navbar {
+  justify-content: space-around;
+  display: flex;
+  margin-top: 27px;
+  margin-left: -10px;
+  transition: 1s;
+}
+
+.logoimg {
+  margin-right: 5px;
+  margin-top: 4px;
+  width: 33px;
+  height: 33px;
+}
+
+.logoname {
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  font-family: 'REM', sans-serif;
+  font-weight: bolder;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+
+.logoname2 {
+  letter-spacing: 0.5px;
+
+  font-size: 20px;
+  font-family: 'REM', sans-serif;
+  font-weight: 300;
+  margin-top: 9px;
+}
+
+ul {
+  margin-left: -120px;
+  margin-top: 11px;
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-left: 35px;
+}
+
+.loginbutton {
+  margin-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+  border: 1px solid rgb(222, 221, 221);
+  background-color: rgb(255, 255, 255);
+  height: 23px;
+  width: 75px;
+  border-radius: 100px;
+  transition: 0.2s ease-in-out;
+
+}
+
+:hover.loginbutton {
+  border: 2px solid black;
+}
+
+.midbold {
+  margin-top: 68px;
+  font-size: 60px;
+  width: 400px;
+  line-height: 60px;
+  justify-content: space-around;
+  margin-bottom: 9px;
+}
+
+.middlebody {
+  padding-left: 120px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.midnotbold {
+  width: 470px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  color: rgb(49, 48, 48);
+}
+
+.join {
+  margin-top: 17px;
+  font-size: 17px;
+  border: none;
+  font-weight: bold;
+  height: 57px;
+  width: 200px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: 0.17s ease-in-out;
+
+}
+
+:hover.join {
+  background-color: rgb(49, 48, 48);
+}
+
+.midimg {
+  padding-top: 27px;
+  width: 835px;
+  scale: 1.02;
+  padding-left: 40px;
+}
+
+#events {
+  margin-top: 100px;
+  font-size: 16px;
+}
+
+#upcoming {
+  margin-top: 10px;
+  width: 640px;
+  margin-bottom: 70px;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+
+  .middlebody {
+    padding: 0;
+  }
+
+  .join {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 4vw;
+  }
+
+  .midbold {
+    margin-top: 10px;
+    font-size: 14vw;
+    width: 100%;
+    line-height: 60px;
+  }
+
+  .midnotbold {
+    width: 100%;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  .midimg {
+    width: 80vw;
+    margin-top: 30px;
+  }
+
+  #upcoming {
+    font-size: 7vw;
+    width: 60vw;
+    line-height: 40px;
+  }
+
+  .rhombus {
+    margin-left: 40vw;
+
+  }
+
+  #blackrhombus {
+    margin-left: 40vw;
+
+  }
+
+  .cards {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0;
+    width: 100%;
+
+  }
+
+  .card {
+    min-width: 280px;
+    height: 265px;
+  }
+
+  .impactcard {
+    width: 37vw;
+    height: 310px;
+
+  }
+
+  .impactcardimg {
+    width: 17vw;
+  }
+
+  .impactcardtext {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 10vw;
+    width: 100%;
+
+  }
+
+  .impactcardsmalltext {
+    width: 90%;
+  }
+
+  .impactcards {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .navbar {
+
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+
+  .loginbutton {
+    scale: 0;
+
+  }
+
+  li {
+    font-size: 3.5vw;
+    margin-left: 4vw;
+  }
+
+  .navbuttons {
+    margin-top: 5vh;
+    margin-left: 19vw;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  li {
+    font-size: 2vw;
+    margin-left: 3vw;
+  }
+
+  .navbuttons {
+    margin-top: 5vh;
+    margin-left: 19vw;
+  }
+
+  .midbold {
+    font-size: 8vw;
+  }
+}
